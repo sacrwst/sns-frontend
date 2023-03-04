@@ -45,5 +45,19 @@
 }
 
 .topbarRight {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   flex: 4;
+  color: #fff;
+}
+
+.topbarItemIcons {
+  display: flex;
+}
+
+.topbarIconItem {
+  position: relative;
+  margin-right: 15px;
+  cursor: pointer;
 }
