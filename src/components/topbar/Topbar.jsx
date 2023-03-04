@@ -15,14 +15,16 @@ export default function Topbar() {
         </div>
       </div>
       <div className="topbarRight">
-        <div className="topbarIconItem">
-          <Chat />
-          <span className="topbarIconBudge">1</span>
-        </div>
+        <div className="topbarItemIcons">
+          <div className="topbarIconItem">
+            <Chat />
+            <span className="topbarIconBudge">1</span>
+          </div>
 
-        <div className="topbarIconItem">
-          <Notifications />
-          <span className="topbarIconBudge">2</span>
+          <div className="topbarIconItem">
+            <Notifications />
+            <span className="topbarIconBudge">2</span>
+          </div>
         </div>
       </div>
       <img src="/assets/person/1.jpeg" alt="" className="topbarImg" />
