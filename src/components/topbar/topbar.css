@@ -9,7 +9,7 @@
 }
 
 .topbarLeft {
-  flex: 3;
+  flex: 2;
 }
 
 .logo {
@@ -19,7 +19,7 @@
 }
 
 .topbarCenter {
-  flex: 5;
+  flex: 6;
 }
 
 .searchbar {
@@ -63,8 +63,8 @@
 }
 
 .topbarImg {
-  width: 32px;
-  height: 32px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   object-fit: cover;
   cursor: pointer;
