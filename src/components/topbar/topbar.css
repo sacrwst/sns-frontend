@@ -58,8 +58,23 @@
 
 .topbarIconItem {
   position: relative;
+  margin-top: 5px;
   margin-right: 15px;
   cursor: pointer;
+}
+
+.topbarIconBudge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background: #db6ab9;
+  width: 15px;
+  height: 15px;
+  font-size: 12px;
+  border-radius: 50%;
 }
 
 .topbarImg {
