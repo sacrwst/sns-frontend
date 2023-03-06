@@ -13,9 +13,11 @@
 }
 
 .logo {
+  display: block;
   color: #fff;
   font-size: 24px;
   font-weight: bold;
+  text-align: center;
 }
 
 .topbarCenter {
