@@ -1,12 +1,15 @@
+import React from "react";
 import Topbar from "components/topbar/Topbar";
 import Sidebar from "components/sidebar/Sidebar";
-import React from "react";
+import "./home.css"
 
 export default function Home() {
   return (
     <>
-      <Topbar />
-      <Sidebar />
+      <div className="homeContainer">
+        <Topbar />
+        <Sidebar />
+      </div>
     </>
   );
 }
