@@ -1,5 +1,6 @@
 import { Bookmark, Home, MessageRounded, Notifications, Person, Search, Settings } from '@mui/icons-material'
 import React from 'react'
+import "./sidebar.css"
 
 export default function Sidebar() {
   return (
