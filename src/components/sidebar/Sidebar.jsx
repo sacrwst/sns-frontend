@@ -43,6 +43,14 @@ export default function Sidebar() {
                     <img src='/assets/person/2.jpeg' className='sidebarFriendImg' />
                     <span className="sidebarFriendName">Name</span>
                 </li>
+                <li className="sidebarFriend">
+                    <img src='/assets/person/3.jpeg' className='sidebarFriendImg' />
+                    <span className="sidebarFriendName">Name2</span>
+                </li>
+                <li className="sidebarFriend">
+                    <img src='/assets/person/4.jpeg' className='sidebarFriendImg' />
+                    <span className="sidebarFriendName">Name3</span>
+                </li>
             </ul>
         </div>
     </div>
