@@ -14,19 +14,19 @@ export default function Share() {
             <div className="shareBtns">
                 <div className="shareOptions">
                     <div className="shareOption">
-                        <Image className='shareIcon' />
+                        <Image className='shareIcon' htmlColor='blue' />
                         <span className="shareOptionText">写真</span>
                     </div>
                     <div className="shareOption">
-                        <Gif className='shareIcon' />
+                        <Gif className='shareIcon' htmlColor='pink' />
                         <span className="shareOptionText">Gif</span>
                     </div>
                     <div className="shareOption">
-                        <Face className='shareIcon' />
+                        <Face className='shareIcon' htmlColor='green' />
                         <span className="shareOptionText">気持ち</span>
                     </div>
                     <div className="shareOption">
-                        <Analytics className='shareIcon' />
+                        <Analytics className='shareIcon' htmlColor='red' />
                         <span className="shareOptionText">投票</span>
                     </div>
                 </div>
