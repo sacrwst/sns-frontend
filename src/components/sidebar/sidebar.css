@@ -19,7 +19,7 @@
     padding: 4px 6px;
     margin-bottom: 10px;
     box-shadow: 3px 7px 13px -10px #65789f;
-    background-repeat: 10px;
+    border-radius: 10px;
     cursor: pointer;
 }
 
