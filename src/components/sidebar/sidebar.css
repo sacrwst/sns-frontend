@@ -18,7 +18,29 @@
     align-items: center;
     padding: 4px 6px;
     margin-bottom: 10px;
+    box-shadow: 3px 7px 13px -10px #65789f;
+    background-repeat: 10px;
     cursor: pointer;
+}
+
+.sidebarListItem:hover {
+    box-shadow: 0;
+    transform:  translateY(5px);
+    transition: .3s;
+}
+
+.sidebarIcon {
+    font-size: 35px !important;
+    margin-right: 10px;
+}
+
+.sidebarListItemText {
+    font-size: 20px;
+    padding-top: 3px;
+}
+
+.sidebarHr {
+    margin: 20px 0;
 }
 
 .sidebarFriendImg {
