@@ -41,3 +41,38 @@
     margin: 20px 0;
 }
 
+.postImg {
+    width: 100%;
+    min-height: 500px;
+    margin-top: 20px;
+    object-fit: contain;
+}
+
+.postBottom {
+    display: flex;
+    align-items: space-between;
+    align-items: center;
+}
+
+.postBottomLeft {
+    display: flex;
+    align-items: center;
+}
+
+.likeIcon {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.postLikeCoutner {
+    font-size: 15px;
+}
+
+.postCommentText {
+    font-size: 14px;
+    margin-right: 3px;
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+}
