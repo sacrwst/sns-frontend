@@ -1,3 +1,4 @@
+import Post from 'components/post/Post'
 import Share from 'components/share/Share'
 import React from 'react'
 import './timeline.css'
@@ -7,6 +8,7 @@ export default function Timeline() {
     <div className='timeline'>
         <div className="timelineWrapper">
             <Share />
+            <Post />
         </div>
     </div>
   )
