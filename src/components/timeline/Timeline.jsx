@@ -1,6 +1,7 @@
 import Post from 'components/post/Post'
 import Share from 'components/share/Share'
 import React from 'react'
+import {Posts} from 'dummyData'
 import './timeline.css'
 
 export default function Timeline() {
@@ -8,10 +9,11 @@ export default function Timeline() {
     <div className='timeline'>
         <div className="timelineWrapper">
             <Share />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
+            {
+              Posts.map((post) => (
+                <Post post={post} key={post.id} />
+              ))
+            }
         </div>
     </div>
   )
