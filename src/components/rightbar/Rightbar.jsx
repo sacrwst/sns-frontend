@@ -20,6 +20,9 @@ export default function Rightbar() {
             <div className="rightbarUsername">username</div>
           </li>
         </ul>
+        <p className="promotionTitle">プロモーション広告</p>
+        <img src="/assets/promotion/promotion1.jpeg" alt="" className='promotionImg' />
+        <p className="promotionName">ショッピング</p>
       </div>
     </div>
   )

@@ -64,3 +64,20 @@
     height: 12px;
     border-radius: 50%;
 }
+
+.promotionTitle {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.promotionImg {
+    width: 85%;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.promotionName {
+    color: 434343;
+    font-size: small;
+}
