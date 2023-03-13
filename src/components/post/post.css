@@ -19,7 +19,7 @@
 
 .postTop {
     display: flex;
-    align-items: space-between;
+    justify-content: space-between;
 }
 
 .postTopLeft {
@@ -50,7 +50,7 @@
 
 .postBottom {
     display: flex;
-    align-items: space-between;
+    justify-content: space-between;
     align-items: center;
 }
 
