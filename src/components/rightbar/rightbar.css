@@ -1,3 +1,66 @@
 .rightbar {
     flex: 3.5;
 }
+
+.rightbarWrapper {
+    padding: 20px 20px 0 0;
+}
+
+.eventContainer {
+    display: flex;
+    align-items: center;
+}
+
+.starImg {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+.eventText {
+    font-size: 12px;
+}
+
+.adImg {
+    width: 100%;
+    border-radius: 10px;
+    margin: 25px 0;
+}
+
+.rightbarTitle {
+    margin-bottom: 20px;
+}
+
+.rightbarFriendList {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.rightbarFriend {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.rightbarProfileImgContainer {
+    position: relative;
+    margin-right: 10px;
+}
+
+.rightbarProfileImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.rightbarOnline {
+    position: absolute;
+    top: -2px;
+    right: 0;
+    background: #c605c6;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
