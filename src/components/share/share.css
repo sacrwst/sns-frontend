@@ -1,0 +1,13 @@
+.share {
+  width: 100%;
+  height: 170px;
+}
+
+.shareTop {
+  display: flex;
+  align-items: center;
+}
+
+.shareInput {
+  width: 100%;
+}
